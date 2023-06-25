@@ -1,0 +1,159 @@
+@import url(bootstrap-5.3.0-dist/css/bootstrap.css);
+
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+.menitme{
+    justify-content: center;
+}
+
+.nav-home{
+    position: fixed;
+
+}
+
+.nav-fluid{
+    background-color: #252525;
+}
+
+.nav-bar{
+    display: flex;
+    justify-content: end;
+    font-size: large;
+    background-color: transparent;
+}
+
+.nav-bar a{
+    color: gold;
+
+}
+
+.nav-bar a:hover{
+    color: white;
+    background-color: gold;
+    border: 0px solid goldenrod;
+    border-radius: 5px;
+}
+
+.home{
+    background-color: #252525;
+    color: gold ;
+}
+
+.contant{
+    padding:15% ;
+    justify-content: center;
+}
+
+
+
+
+.Discover{
+    border: 1px solid gold;
+    color: gold;
+    background-color:transparent ;
+    padding: 10px;
+    margin-top: 7%;
+    float: left;
+}
+
+.Discover:hover{
+    background-color: goldenrod;
+    color: aliceblue;
+}
+
+.AddToCart{
+    border: 1px solid gold;
+    color: black;
+    background-color: gainsboro;
+    padding: 18px;
+    margin-top: 5%;
+    float: left;
+    margin-left: 1%;
+    font-size: large;
+}
+
+.AddToCart:hover{
+    background-color: goldenrod;
+    color: aliceblue;
+}
+
+.watchso{
+    background-color: burlywood;
+    float: right;
+   
+}
+
+.menname{
+    color: gold;
+    /* text-decoration: underline; */
+    font-size: 50px;
+    padding: 10px 0px 10px 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.menname:hover{
+    text-decoration: underline;
+}
+
+.menWatch {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row; 
+    justify-content: space-between;
+}
+
+.menWatch img{
+    height: 400px;
+}
+
+.menWatch h3{
+    color: gold;
+}
+
+.menWatch p{
+    float: left;
+}
+
+.menshope{
+    border: 1px solid gold;
+    color: black;
+    background-color: gainsboro;
+    padding: 10px;
+    margin-top: 5%;
+    float: left;
+    margin-left: 1%;
+    font-size: large;
+}
+
+.menshope:hover{
+    background-color: goldenrod;
+    color: aliceblue;
+}
+
+.cartmen{
+    justify-content: center;
+}
+
+hr{
+    color: gold;
+    
+}
+
+.footer{
+    color: gold;
+    justify-content: space-between;
+    margin-top: 3%;
+    
+}
+
+@media screen and  (max-width: 550px ) {
+    .nav-home{
+       position: relative;
+       background-color: #252525;
+       
+    }
+}
